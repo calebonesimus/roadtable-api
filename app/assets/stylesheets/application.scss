@@ -107,7 +107,7 @@ html, body {
 }
 
 // Smaller devices
-@media only screen and (max-width: 600) {
+@media screen and (max-device-width:600px), screen and (max-width:600px) {
   // Intro
   .headline-container {
     margin-top: 0px;
